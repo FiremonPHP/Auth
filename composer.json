@@ -8,5 +8,20 @@
       "name": "Marcos Dantas",
       "email": "marcos.adantas@hotmail.com"
     }
-  ]
+  ],
+  "autoload": {
+    "psr-4": {
+      "FiremonPHP\\Auth\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/FiremonPHP/Database"
+    }
+  ],
+  "require": {
+    "firebase/php-jwt": "dev-master",
+    "FiremonPHP/database": "dev-master"
+  }
 }
