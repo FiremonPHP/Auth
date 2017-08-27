@@ -1,0 +1,12 @@
+{
+  "name": "FiremonPHP/Auth",
+  "description": "this lib provides easy way to authentication actions, register, login, logoff...",
+  "minimum-stability": "dev",
+  "license": ["GPL-3.0+","LGPL-3.0+"],
+  "authors": [
+    {
+      "name": "Marcos Dantas",
+      "email": "marcos.adantas@hotmail.com"
+    }
+  ]
+}
