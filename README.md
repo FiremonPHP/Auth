@@ -80,3 +80,18 @@ isActive();
 ```
 
 ##### Setters
+```
+setName(string $name);
+setUsername(string $username);
+setEmail(string $email);
+setModified(\MongoDB\BSON\UTCDateTime $time);
+setCreated(\MongoDB\BSON\UTCDateTime $time);
+setLogged(bool $logged);
+setActive(bool $active);
+setPersonal(array $personalData);
+setRoles(array $roles);
+```
+
+
+### Personal
+Deve ter percebido o uso do setter ``setPersonal(array $data)`` essa função define uma entidade de dados pessoais com propriedades públicas, por tanto, caso você queira adicionar ao usuário dados adicionais, poderá usar essa função.
