@@ -17,11 +17,11 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/FiremonPHP/Database"
+      "url": "https://github.com/FiremonPHP/Manager"
     }
   ],
   "require": {
     "firebase/php-jwt": "dev-master",
-    "FiremonPHP/database": "dev-master"
+    "FiremonPHP/manager": "dev-master"
   }
 }
