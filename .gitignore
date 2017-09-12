@@ -2,7 +2,7 @@ composer.phar
 /vendor/
 composer.lock
 AuthTest.php
-.idea
+/.idea
 test.php
 
 # Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
