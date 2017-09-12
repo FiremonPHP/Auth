@@ -123,9 +123,12 @@ class Configuration
         return self::$_collectionName;
     }
 
-    public static function setExpireTime(int $time)
+    /**
+     * @param int $milliseconds
+     */
+    public static function setExpireTime(int $milliseconds)
     {
-        self::$expireTime = $time;
+        self::$expireTime = $milliseconds;
     }
 
     public static function getExpireTime()

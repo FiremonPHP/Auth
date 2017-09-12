@@ -84,7 +84,6 @@ class User
         $this->name = $name;
         return $this;
     }
-
     /**
      * @return string
      */
@@ -92,7 +91,6 @@ class User
     {
         return $this->username;
     }
-
     /**
      * @param string $username
      * @return User
@@ -102,7 +100,6 @@ class User
         $this->username = $username;
         return $this;
     }
-
     /**
      * @return \MongoDB\BSON\ObjectID
      */
@@ -110,7 +107,6 @@ class User
     {
         return $this->_id;
     }
-
     /**
      * @param \MongoDB\BSON\ObjectID $id
      * @return User
@@ -120,9 +116,6 @@ class User
         $this->_id = $id;
         return $this;
     }
-
-
-
     /**
      * @return string
      */
@@ -130,7 +123,6 @@ class User
     {
         return $this->email;
     }
-
     /**
      * @param string $email
      * @return User
@@ -140,7 +132,6 @@ class User
         $this->email = $email;
         return $this;
     }
-
     /**
      * @return mixed
      */
@@ -148,7 +139,6 @@ class User
     {
         return $this->token;
     }
-
     /**
      * @param mixed $token
      * @return User
@@ -158,7 +148,6 @@ class User
         $this->token = $token;
         return $this;
     }
-
     /**
      * @return mixed
      */
@@ -166,7 +155,6 @@ class User
     {
         return $this->remember_token;
     }
-
     /**
      * @param mixed $remember_token
      * @return User
@@ -176,9 +164,6 @@ class User
         $this->remember_token = $remember_token;
         return $this;
     }
-
-
-
     /**
      * @return mixed
      */
@@ -186,7 +171,6 @@ class User
     {
         return $this->expire;
     }
-
     /**
      * @param mixed $expire
      * @return User
@@ -196,9 +180,6 @@ class User
         $this->expire = $expire;
         return $this;
     }
-
-
-
     /**
      * @return string
      */
@@ -377,9 +358,8 @@ class User
     /**
      * @return array
      */
-    public function getErros()
+    public function getErrors()
     {
         return $this->errors;
     }
-
 }
